@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+html{
+	background-color:rgb(135,206,235);
+}
+.first-para{
+	background:rgb(0,0,0);
+	color:rgb(255, 255, 255);
+}
+div{
+	color:rgb(0,0,0);
+}
+
+li:first-child {
+    background:white;
+	width:40%;
+}
+li:last-child{
+	background:ghostwhite;
+	width:40%;
+}
+li:nth-child(even){
+	background:grey;
+	width:40%;
+}
+li:nth-child(3){
+	background:pink;
+	width:40%;
+}
