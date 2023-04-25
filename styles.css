@@ -2,7 +2,7 @@ div{
 	display:inline;
 }
 div[id="a"]::before{
-	content:"BeforeElement ";
+	content:"BeforeElement";
 	color:#F00
 }
 
