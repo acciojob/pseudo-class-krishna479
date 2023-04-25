@@ -2,12 +2,12 @@ div{
 	display:inline;
 }
 div[id="a"]::before{
-	content:"Before Element ";
+	content:"BeforeElement ";
 	color:#F00
 }
 
 div[id="a"]:after{
-	content:"After Element";
+	content:"AfterElement";
 	color:#F00;
 }
 
