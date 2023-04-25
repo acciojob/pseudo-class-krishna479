@@ -1,6 +1,9 @@
 div{
 	display:inline;
 }
+div[id="a"]::before{
+	color:red;
+}
 
 div[id="a"]::after{
 	color:red;
