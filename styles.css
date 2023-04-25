@@ -2,10 +2,12 @@ div{
 	display:inline;
 }
 div[id="a"]::before{
-	color:red;
+	content:"Before Element";
+	color:red
 }
 
-div[id="a"]::after{
+div[id="a"]:after{
+	content:"After Element";
 	color:red;
 }
 
