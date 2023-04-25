@@ -1,16 +1,9 @@
-div{
-	display:inline;
-}
-div[id="a"]::before{
-	content:"BeforeElement";
-	color:#F00
+#p1::before{
+    content: "BEFORE ELEMENT ";
+	color:rgb(255, 0, 0);
 }
 
-div[id="a"]:after{
-	content:"AfterElement";
-	color:#F00;
+#p1::after{
+    content: " AFTER ELEMENT";
+	color:rgb(255, 0, 0);
 }
-
-
-
-
