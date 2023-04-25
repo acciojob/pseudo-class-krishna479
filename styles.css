@@ -3,12 +3,12 @@ div{
 }
 div[id="a"]::before{
 	content:"Before Element ";
-	color:red
+	color:#F00
 }
 
 div[id="a"]:after{
 	content:"After Element";
-	color:red;
+	color:#F00;
 }
 
 
