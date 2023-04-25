@@ -1,15 +1,11 @@
-ul li{
-	display:flex;
-	list-style:none;
+div{
+	display:inline;
 }
 
-ul{display:flex;
-  }
-
-ul li:first-child{
+div[id="a"]::after{
 	color:red;
 }
 
-ul li:last-child{
-	color:red;
-}
+
+
+
