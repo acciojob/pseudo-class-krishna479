@@ -1,9 +1,9 @@
 #p1::before{
-    content: "BEFORE ELEMENT ";
+    content: "Befor Element";
 	color:rgb(255, 0, 0);
 }
 
 #p1::after{
-    content: " AFTER ELEMENT";
+    content: "After Element";
 	color:rgb(255, 0, 0);
 }
